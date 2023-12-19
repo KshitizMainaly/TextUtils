@@ -34,6 +34,7 @@ const App = () => {
           title="TextUtils"
           Toggle={Toggle}
         />
+    <ContactCard mode={mode} />
         <Routes>
           <Route exact path="/" element={<ContactCard mode={mode} />} />
           <Route exact path="/about" element={<About />} />
